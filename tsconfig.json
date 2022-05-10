@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["src"],
+    "outDir": "dist",
+    "baseUrl": ".",
+    "allowJs": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "target": "es2017",
+    "module": "commonjs",
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "node",
+    "types": ["node", "react", "react-dom", "chrome"],
+    "paths": {
+      "*": ["node_modules/*"],
+      "~/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
